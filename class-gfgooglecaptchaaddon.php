@@ -154,7 +154,7 @@ class gfgooglecaptchaaddon extends GFAddOn
 			),
 			array(
 				'handle'  => 'axios',
-				'src'     => 'https://unpkg.com/axios@0.21.1/dist/axios.min.js',
+				'src'     => $this->get_base_url() . '/js/axios.min.js',
 				'version' => null,
 				'deps'    => array(),
 				'enqueue' => array(
@@ -163,7 +163,7 @@ class gfgooglecaptchaaddon extends GFAddOn
 			),
 			array(
 				'handle'  => 'qs-script',
-				'src'     => 'https://unpkg.com/qs@6.10.1/dist/qs.js',
+				'src'     => $this->get_base_url() . '/js/qs.min.js',
 				'version' => null,
 				'deps'    => array(),
 				'enqueue' => array(
